@@ -47,3 +47,24 @@ This project is a **university-focused Retrieval-Augmented Generation (RAG) chat
    ```bash
    git clone <repo_url>
    cd <repo_directory>
+
+2. Navigate to the RAG Directory:
+   ```bash
+   cd RAG
+
+3. Install Dependencies: Use the following command to install all required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+4. Create a `.env` file in the root directory and add your LangChain API key:
+   ```bash
+   LANGCHAIN_API_KEY=your_api_key
+
+5. Start the chatbot application with this command:
+   ```bash
+   streamlit run final_chatbot.py
+
+6. Access the Application:
+Open the provided URL in the terminal (e.g., `http://localhost:8501`) to interact with the chatbot interface.
+
+
